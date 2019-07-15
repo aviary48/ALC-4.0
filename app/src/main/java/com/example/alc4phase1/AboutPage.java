@@ -25,6 +25,8 @@ public class AboutPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
+        
+
 
         mWebview = findViewById(R.id.webview);
         WebSettings webSettings = mWebview.getSettings();
